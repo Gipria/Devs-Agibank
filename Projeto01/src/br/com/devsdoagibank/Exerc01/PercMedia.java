@@ -12,10 +12,14 @@ public class PercMedia {
         System.out.print("Digite a média: ");
         double media = sc.nextDouble();
 
+        //double diferenca = Math.abs(valor - media);
+
+
         double diferenca = Math.abs(valor - media);
 
+        double result = media / (diferenca * 100);
 
-
+        System.out.println(result);
     }
 
 }
