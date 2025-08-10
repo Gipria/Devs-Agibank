@@ -1,4 +1,8 @@
-package br.com.devsdoagibank.Exerc01;
+/*4. Implemente um método chamado calcularMediaMovel() que recebe um array de preços e um intervalo n.
+Deve calcular a média móvel para o intervalo dado.
+Exemplo: Preços: {100, 102, 101, 103, 105}, Intervalo: 3 => Saída: 101.0, 102.0, 103.0*/
+
+package br.com.devsdoagibank.Exerc2;
 
 import java.util.Scanner;
 
@@ -33,8 +37,7 @@ public class calcMediaMovel {
         }
         sc.close();
 
-
-
         }
     }
 
+// O que falta: Colocar um if de verificar se o numero da media equivale a quantidade que tenho de precos
