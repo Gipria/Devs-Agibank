@@ -7,7 +7,7 @@ maiorPreco(double[] precos) → retorna o maior preço.
 menorPreco(double[] precos) → retorna o menor preço.
 */
 
-package br.com.devsdoagibank.Exerc3;
+/*package br.com.devsdoagibank.Exerc3;
 
 import java.util.Scanner;
 
@@ -49,4 +49,4 @@ public class MaiorMenorAcao {
         }
 
     }
-}
+}*/
