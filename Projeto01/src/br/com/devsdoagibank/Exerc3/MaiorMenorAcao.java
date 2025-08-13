@@ -7,7 +7,7 @@ maiorPreco(double[] precos) → retorna o maior preço.
 menorPreco(double[] precos) → retorna o menor preço.
 */
 
-/*package br.com.devsdoagibank.Exerc3;
+package br.com.devsdoagibank.Exerc3;
 
 import java.util.Scanner;
 
@@ -23,18 +23,27 @@ public class MaiorMenorAcao {
             precos[i] = sc.nextDouble();
         }
 
+        double maior = maiorPreco(precos);
+        double menor = menorPreco(precos);
 
-        public static double maiorPreco(double ){
+        System.out.println("Maior preço: " + maior);
+        System.out.println("Menor preço: " + menor);
+
+        sc.close();
+    }
+
+
+        public static double maiorPreco(double [] precos){
             double maior = precos[0];
-            for (int i = 0; i > precos.length; i++) {
+            for (int i = 0; i  < precos.length; i++) {
                 if (precos[i] > maior) {
                     if (precos[i] > maior) {
                         maior = precos[i];
                     }
                 }
-                //return maior;
             }
-       // }
+            return maior;
+        }
 
         public static double menorPreco ( double[] precos){
             double menor = precos[0];
@@ -44,9 +53,7 @@ public class MaiorMenorAcao {
                         menor = precos[i];
                     }
                 }
-                return menor;
             }
+            return menor;
         }
-
     }
-}*/
