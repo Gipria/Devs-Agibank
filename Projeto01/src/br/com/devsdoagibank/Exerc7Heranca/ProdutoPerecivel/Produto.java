@@ -12,7 +12,7 @@ public class Produto {
 
         public Produto(String codigo, String nome, double preco){
             // "this" se refere ao atributo da classe (à esquerda)
-            // O que está à direita são os parâmetros recebidos
+
             this.codigo = codigo; // Atribui o código passado ao atributo da classe
             this.nome   = nome;
             this.preco  = preco;
